@@ -5,12 +5,16 @@ A Symfony Client for Odoo using Ripcord RPC library (as used in Odoo Web API doc
 
 ## Installation
 
+* Enable the XML-RPC in your PHP installation.
+
 * Download OdooConnectorBundle using [composer]()
 
 ```composer
 composer require sofia-holding/odoo-connector-bundle
 ```
+
 * Enable the Bundle
+
 ```php
 <?php
 // app/AppKernel.php
@@ -26,6 +30,7 @@ public function registerBundles()
 ```
 
 * Add the following configuration to your parameters.yml
+
 ```yml
 # app/config/parameters.yml
 
@@ -35,6 +40,7 @@ public function registerBundles()
     username_odoo: 'user@email.com'
     password_odoo: 'yourpassword'
 ```
+
 * Import OdooConnectorBundle routing.
 
 ```yml
@@ -42,6 +48,7 @@ public function registerBundles()
 odoo_connector:
     resource: "@OdooConnectorBundle/Resources/config/routes.yaml"
 ```
+
 * Move the directory ‘assets’ to ‘/web’.
 
 
