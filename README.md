@@ -42,6 +42,8 @@ public function registerBundles()
 odoo_connector:
     resource: "@OdooConnectorBundle/Resources/config/routes.yaml"
 ```
+* Move the directory ‘assets’ to ‘/web’.
+
 
 ## Usage
 
