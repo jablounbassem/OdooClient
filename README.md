@@ -69,10 +69,10 @@ $odooService->create('res.partner', $partner);
 
 # update records        
 $option[0] = array('name'=>"New  Partner Name");
-$odooService->update('res.partner',$id=7,$option);
+$odooService->update('res.partner',$id,$option);
 
 # delete records        
-$odooService->delete('res.partner',$id=7);
+$odooService->delete('res.partner',$id);
 ```
 
 ## Contributing
