@@ -2,8 +2,6 @@
 /**
  * Created by PhpStorm.
  * User: Bassem
- * Date: 22/04/2019
- * Time: 10:43 PM
  */
 
 namespace Odoo\ConnectorBundle\DependencyInjection;
